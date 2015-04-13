@@ -1,9 +1,9 @@
 <?
 // configuración
 $mensajeenviado='Enviado correctamente, en breve nos comunicaremos con usted';
-$redireccionx='https://fb-contact-form.herokuapp.com/gracias.php'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
+$redireccionx='gracias.php'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
 $mensajenoenviado='Favor de completar las palabras correctamente';
-$redireccionx='https://fb-contact-form.herokuapp.com/gracias.php'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
+$redireccionx='gracias.php'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
 
 // enviamos el email
 $nombre=$_POST['nombre'];
