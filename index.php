@@ -41,7 +41,7 @@
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
       <h3 class="color-yellow">Solicita cotización</h3>
-      <form>
+      <form action="mail.php">
   <div class="row">
     <div class="large-12 columns">
       <label>Nombre
