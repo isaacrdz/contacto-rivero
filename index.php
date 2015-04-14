@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-<title>Boletin</title>
+<title>Cotización</title>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -41,51 +41,13 @@
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
       <h3 class="color-yellow">Solicita cotización</h3>
-      <form action="mail.php">
-  <div class="row">
-    <div class="large-12 columns">
-      <label>Nombre
-        <input type="text" placeholder="Nombre" name="nombre" required />
-      </label>
-    </div>
-  </div>
-  <div class="row">
-    <div class="medium-4 large-4 columns">
-      <label>Correo
-        <input type="email" placeholder="@" name="correo" required/>
-      </label>
-    </div>
-    <div class="medium-4 large-4 columns">
-      <label>Teléfono
-        <input type="tel" placeholder="10 dígitos" name="telefono"  required />
+     
 
-      </label>
-    </div>
 
-    <div class="medium-4 large-4 columns">
-      <label>Auto
-        <select name="seleccion">
-          <option class="disabled" value="Opción">-Escoge una opción-</option>        
-          <option value="Aveo">Aveo</option>
-          <option value="Matiz">Matiz</option>
-          <option value="Cruze">Cruze</option>
-          
-        </select>
-      </label>
-    </div>
-    
-  </div>
-  
-  
-  <div class="row">
-    <div class="large-12 columns">
-      <label>Mensaje
-        <textarea placeholder="Mensaje" name="mensaje"></textarea>
-      </label>
- <button class=" right" type="submit">Enviar</button>
-</div>
-  </div>
-</form>
+
+<?php include "form.php" ?>
+
+
     </div>
   </div>
 </section>
