@@ -43,7 +43,7 @@
       <h3 class="color-yellow">Solicita cotización</h3>
      
 
-
+<a href="https://apps.facebook.com/contactorivero/gracias.php">gracias</a>
 
 <?php include "form.php" ?>
 
