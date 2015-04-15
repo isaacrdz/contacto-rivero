@@ -33,7 +33,7 @@
         <label>Mensaje
           <textarea placeholder="Mensaje" name="txtareax"></textarea>
         </label>
-       <button type="submit" class="pull-left">Enviar</button>
+       <button type="submit" class="pull-left">Send</button>
       </div>
   </div>
 </form>
