@@ -43,8 +43,6 @@
       <h3 class="color-yellow">Solicita cotización</h3>
      
 
-<a href="gracias.php">gracias</a>
-
 <?php include "form.php" ?>
 
 
