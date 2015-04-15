@@ -1,7 +1,7 @@
 <?
 // configuración
 $mensajeenviado='Enviado correctamente, en breve nos comunicaremos con usted';
-$redireccion='http://nissicom.com.mx/contact-fb-rv/gracias.php'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
+$redireccion='https://apps.facebook.com/contactorivero/'; // cuando se envie el mail hacia donde me tengo que ir, eso dice el archivo jeje
 
 
 // enviamos el email
